@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ProveWay Task</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<div style="width: 341px;">
+			<div class="top_section">
+				<h1>YAY! It’s BOGO</h1>
+			</div>
+			<div class="middle_section">
+				<div class="payment-option">
+					<div style="display:flex;">
+						<input type="radio" id="option-1" name="payment-option" value="custom" onclick="toggleDropdown('dropdown-1')">
+						<label for="option-1">
+							<div class="title_t1">1 Unit<span>10% off</span> <p>Standard Price</p></div>
+							<div class="title_t2"><p style="margin: 0;">$10.00 USD</p><strike>$24.00 USD</strike></div>
+						</label>
+					</div>
+					<!-- Dropdown table structure -->
+					<div class="dropdowns"  id="dropdown-1">
+						<table style="margin-left: 20px;">
+							<thead>
+								<tr>
+									<th style="text-align: left; padding: 8px;"></th>
+									<th style="text-align: left; padding: 8px;">Size</th>
+									<th style="text-align: left; padding: 8px;">Color</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th style="padding: 8px;">#1</th>
+									<td style="padding: 8px;position:relative;">
+										<select id="size-1" name="size-1">
+											<option value="">Select Size</option>
+											<option value="small">Small</option>
+											<option value="medium">Medium</option>
+											<option value="large">Large</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+									<td style="padding: 8px;position:relative;">
+										<select id="color-1" name="color-1">
+											<option value="">Select Color</option>
+											<option value="red">Red</option>
+											<option value="blue">Blue</option>
+											<option value="green">Green</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+								</tr>
+								<tr>
+									<th style="padding: 8px;">#2</th>
+									<td style="padding: 8px;position:relative;">
+										<select id="size-2" name="size-2">
+											<option value="">Select Size</option>
+											<option value="small">Small</option>
+											<option value="medium">Medium</option>
+											<option value="large">Large</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+									<td style="padding: 8px;position:relative;">
+										<select id="color-2" name="color-2">
+											<option value="">Select Color</option>
+											<option value="red">Red</option>
+											<option value="blue">Blue</option>
+											<option value="green">Green</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+				<!-- Second Option -->
+				
+				<div class="payment-option">
+					<p class="popular">MOST POPULAR</p>
+					
+					<div style="display:flex;">
+						<input type="radio" id="option-2" name="payment-option" value="custom" onclick="toggleDropdown('dropdown-2')" checked>
+						<label for="option-2">
+							<div class="title_t1">2 Unit<span>20% off</span></div>
+							<div class="title_t2"><p style="margin: 0;">$18.00 USD</p><strike>$24.00 USD</strike></div>
+						</label>
+					</div>
+					<!-- Dropdown table structure -->
+					<div class="dropdowns"  id="dropdown-2" style="display: block;">
+						<table style="margin-left: 20px;">
+							<thead>
+								<tr>
+									<th style="text-align: left; padding: 8px;"></th>
+									<th style="text-align: left; padding: 8px;">Size</th>
+									<th style="text-align: left; padding: 8px;">Color</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th style="padding: 8px;">#1</th>
+									<td style="padding: 8px;position:relative;">
+										<select id="size-1" name="size-1">
+											<option value="">Select Size</option>
+											<option value="small">Small</option>
+											<option value="medium">Medium</option>
+											<option value="large">Large</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+									<td style="padding: 8px;position:relative;">
+										<select id="color-1" name="color-1">
+											<option value="">Select Color</option>
+											<option value="red">Red</option>
+											<option value="blue">Blue</option>
+											<option value="green">Green</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+								</tr>
+								<tr>
+									<th style="padding: 8px;">#2</th>
+									<td style="padding: 8px;position:relative;">
+										<select id="size-2" name="size-2">
+											<option value="">Select Size</option>
+											<option value="small">Small</option>
+											<option value="medium">Medium</option>
+											<option value="large">Large</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+									<td style="padding: 8px;position:relative;">
+										<select id="color-2" name="color-2">
+											<option value="">Select Color</option>
+											<option value="red">Red</option>
+											<option value="blue">Blue</option>
+											<option value="green">Green</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+				<!-- Third Option -->
+				<div class="payment-option">
+					<div style="display:flex;">
+						<input type="radio" id="option-3" name="payment-option" value="custom" onclick="toggleDropdown('dropdown-3')">
+						<label for="option-3">
+							<div class="title_t1">3 Unit<span>30% off</span></div>
+							<div class="title_t2"><p style="margin: 0;">$24.00 USD</p><strike>$24.00 USD</strike></div>
+						</label>
+					</div>
+					<!-- Dropdown table structure -->
+					<div class="dropdowns"  id="dropdown-3">
+						<table style="margin-left: 20px;">
+							<thead>
+								<tr>
+									<th style="text-align: left; padding: 8px;"></th>
+									<th style="text-align: left; padding: 8px;">Size</th>
+									<th style="text-align: left; padding: 8px;">Color</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th style="padding: 8px;">#1</th>
+									<td style="padding: 8px;position:relative;">
+										<select id="size-1" name="size-1">
+											<option value="">Select Size</option>
+											<option value="small">Small</option>
+											<option value="medium">Medium</option>
+											<option value="large">Large</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+									<td style="padding: 8px;position:relative;">
+										<select id="color-1" name="color-1">
+											<option value="">Select Color</option>
+											<option value="red">Red</option>
+											<option value="blue">Blue</option>
+											<option value="green">Green</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+								</tr>
+								<tr>
+									<th style="padding: 8px;">#2</th>
+									<td style="padding: 8px;position:relative;">
+										<select id="size-2" name="size-2">
+											<option value="">Select Size</option>
+											<option value="small">Small</option>
+											<option value="medium">Medium</option>
+											<option value="large">Large</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+									<td style="padding: 8px;position:relative;">
+										<select id="color-2" name="color-2">
+											<option value="">Select Color</option>
+											<option value="red">Red</option>
+											<option value="blue">Blue</option>
+											<option value="green">Green</option>
+										</select>
+										<i class="fa fa-caret-down" aria-hidden="true"></i>
+										
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			
+			<div class="total_section">
+				<p style="font-size: 14px;font-weight: 500;line-height: 16.94px;color:#FF6B82;margin: 0;">Free Delivery</p>
+				<p style="font-size: 14px;font-weight: 400;line-height: 16.94px;margin: 0;">Total : $18.00 USD</p>
+			</div>
+			
+			<div class="btn_section">
+				<button>+ Add to cart</button>
+				<p><i>@ Powered by Pumper</i></p>
+			</div>
+		</div>
+	</body>
+	
+</html>
