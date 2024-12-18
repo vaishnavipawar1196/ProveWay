@@ -220,3 +220,8 @@ button{
     border-style: solid;
     border-color: transparent transparent #f56279 transparent;
 }
+
+.payment-option.checked {
+    background-color: #FFEBEE; 
+    border: 2px solid #FF6B82; 
+}
